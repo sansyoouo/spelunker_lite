@@ -27,3 +27,4 @@ Damage: 1024 (Lethal).
 
 ### Drug Addiction
 Relying on chemical enhancements is fatal. If you have any beneficial status effects (buffs) active, you will die from drug poisoning.
+**This sentence has been changed because it was blocked on the CurseForge version due to references to drugs.**
