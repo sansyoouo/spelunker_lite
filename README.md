@@ -2,7 +2,7 @@
 A simplified version of the Spelunker mod co-developed for mosyusi's Minecraft modpack.
 ## Added cause of death
 ### Sprained ankle
-If you run, you'll sprain your ankle and die in about 10 seconds (more precisely, the calculation is done in units of 1/200th of a second per tick).
+If you run, you will sprain your ankle and die in about 10 seconds (to be precise, it performs a 1 in 200 probability calculation every tick).
 ### spasm
 Without any warning, seizures occur at intervals of about 10 minutes (more precisely, a calculation of 1/12,000 is performed every tick), and death results.
 ### drown
