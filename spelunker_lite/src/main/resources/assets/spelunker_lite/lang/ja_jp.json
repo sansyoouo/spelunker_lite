@@ -1,0 +1,20 @@
+{
+  "death.attack.asikusiitadamage": "%1$s は足をくじいて死んだ",
+  "death.attack.asikusiitadamage.item": "%1$s は %3$s により %2$s を使われて足をくじいて死んだ...どういう状況？",
+  "death.attack.asikusiitadamage.player": "%1$s は %2$s から逃げている途中に足をくじいて死んだ",
+  "death.attack.hossadamage.player": "%1$s は %2$s から逃げている途中に何らかの発作で死んだ",
+  "death.attack.hossadamage.item": "%1$s は %2$s の %3$s によって発作を起こして死んだ",
+  "death.attack.hossadamage": "%1$s は何らかの発作を起こして死んだ",
+  "death.attack.obobobodamage.item": "%1$s は %2$s に %3$s を使って溺れさせられた",
+  "death.attack.obobobodamage.player": "%1$s は %2$s から逃げている途中に溺れ死んだ",
+  "death.attack.obobobodamage": "%1$s は溺れ死んだ",
+  "death.attack.shortagedamage.item": "%1$s は %2$s に %3$s を使われて血液不足でショック死した",
+  "death.attack.shortagedamage": "%1$s は血液不足でショック死した",
+  "death.attack.shortagedamage.player": "%1$s は %2$s に血液不足でショック死させられた",
+  "death.attack.tyuudokudamage.item": "%1$s は %2$s に %3$s を使われ薬物中毒を起こして死んだ",
+  "death.attack.tyuudokudamage.player": "%1$s は %2$s から逃げている途中に薬物中毒を起こして死んだ",
+  "death.attack.tyuudokudamage": "%1$s は薬物中毒を起こして死んだ",
+  "death.attack.sippaidamage.item": "%1$s は %2$s に %3$s を使われクラフトに失敗した...どういう状況？",
+  "death.attack.sippaidamage": "%1$s はクラフトに失敗した",
+  "death.attack.sippaidamage.player": "%1$s は %2$s から逃げている途中にクラフトに失敗した"
+}

@@ -1,0 +1,12 @@
+{
+  "_fv": 85,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.1,
+    "scaling": "never",
+    "effects": "hurt",
+    "normalDeathMessage": "%1$s died from shock due to lack of blood",
+    "itemDeathMessage": "%1$s died of shock due to blood depletion caused by an attack using %2$s's %3$s",
+    "playerDeathMessage": "%1$s was killed by %2$s by shock due to lack of blood"
+  }
+}

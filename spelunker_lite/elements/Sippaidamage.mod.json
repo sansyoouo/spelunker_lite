@@ -1,0 +1,12 @@
+{
+  "_fv": 85,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.1,
+    "scaling": "never",
+    "effects": "hurt",
+    "normalDeathMessage": "%1$s failed at crafting",
+    "itemDeathMessage": "%1$s failed to craft due to an attack by %2$s's %3$s",
+    "playerDeathMessage": "%1$s failed at crafting while escaping from %2$s"
+  }
+}

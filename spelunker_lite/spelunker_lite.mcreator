@@ -1,0 +1,294 @@
+{
+  "mod_elements": [
+    {
+      "name": "Asikusiitadamage",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asikusiitadamage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spelunker_lite/damage_type/asikusiitadamage.json"
+        ]
+      }
+    },
+    {
+      "name": "Asikuziita",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asikuziita",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/mosyusi/sansyoouo/spelunkerlite/procedures/AsikuziitaProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Hossadamage",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hossadamage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spelunker_lite/damage_type/hossadamage.json"
+        ]
+      }
+    },
+    {
+      "name": "Hossa",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hossa",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/mosyusi/sansyoouo/spelunkerlite/procedures/HossaProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Obobobodamage",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obobobodamage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spelunker_lite/damage_type/obobobodamage.json"
+        ]
+      }
+    },
+    {
+      "name": "Obobobo",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obobobo",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/mosyusi/sansyoouo/spelunkerlite/procedures/OboboboProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Shortagedamage",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shortagedamage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spelunker_lite/damage_type/shortagedamage.json"
+        ]
+      }
+    },
+    {
+      "name": "Shortage",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shortage",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/mosyusi/sansyoouo/spelunkerlite/procedures/ShortageProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Tyuudokudamage",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tyuudokudamage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spelunker_lite/damage_type/tyuudokudamage.json"
+        ]
+      }
+    },
+    {
+      "name": "Tyuudoku",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tyuudoku",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/mosyusi/sansyoouo/spelunkerlite/procedures/TyuudokuProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Sippaidamage",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sippaidamage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spelunker_lite/damage_type/sippaidamage.json"
+        ]
+      }
+    },
+    {
+      "name": "Sippai",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sippai",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/mosyusi/sansyoouo/spelunkerlite/procedures/SippaiProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "death.attack.asikusiitadamage": "%1$s sprained his ankle and died",
+      "death.attack.asikusiitadamage.item": "%1$s died from a sprained ankle caused by an attack using %3$s by %2$s",
+      "death.attack.asikusiitadamage.player": "%1$s sprained his ankle and died while running away from %2$s",
+      "death.attack.hossadamage.player": "%1$s died from some kind of seizure while trying to escape from %2$s",
+      "death.attack.hossadamage.item": "%1$s died from an attack by %2$s\u0027s %3$s",
+      "death.attack.hossadamage": "%1$s died from a seizure for some reason",
+      "death.attack.obobobodamage.item": "%1$s was drowned by %2$s\u0027s %3$s",
+      "death.attack.obobobodamage.player": "%1$s drowned while trying to escape from %2$s",
+      "death.attack.obobobodamage": "%1$s drowned",
+      "death.attack.shortagedamage.item": "%1$s died of shock due to blood depletion caused by an attack using %2$s\u0027s %3$s",
+      "death.attack.shortagedamage": "%1$s died from shock due to lack of blood",
+      "death.attack.shortagedamage.player": "%1$s was killed by %2$s by shock due to lack of blood",
+      "death.attack.tyuudokudamage.item": "%1$s died from drug overdose caused by %2$s\u0027s %3$s",
+      "death.attack.tyuudokudamage.player": "%1$s died from a drug overdose while fleeing from %2$s",
+      "death.attack.tyuudokudamage": "%1$s died from a drug overdose",
+      "death.attack.sippaidamage.item": "%1$s failed to craft due to an attack by %2$s\u0027s %3$s",
+      "death.attack.sippaidamage": "%1$s failed at crafting",
+      "death.attack.sippaidamage.player": "%1$s failed at crafting while escaping from %2$s"
+    },
+    "ja_jp": {
+      "death.attack.asikusiitadamage": "%1$s は足をくじいて死んだ",
+      "death.attack.asikusiitadamage.item": "%1$s は %3$s により %2$s を使われて足をくじいて死んだ...どういう状況？",
+      "death.attack.asikusiitadamage.player": "%1$s は %2$s から逃げている途中に足をくじいて死んだ",
+      "death.attack.hossadamage.player": "%1$s は %2$s から逃げている途中に何らかの発作で死んだ",
+      "death.attack.hossadamage.item": "%1$s は %2$s の %3$s によって発作を起こして死んだ",
+      "death.attack.hossadamage": "%1$s は何らかの発作を起こして死んだ",
+      "death.attack.obobobodamage.item": "%1$s は %2$s に %3$s を使って溺れさせられた",
+      "death.attack.obobobodamage.player": "%1$s は %2$s から逃げている途中に溺れ死んだ",
+      "death.attack.obobobodamage": "%1$s は溺れ死んだ",
+      "death.attack.shortagedamage.item": "%1$s は %2$s に %3$s を使われて血液不足でショック死した",
+      "death.attack.shortagedamage": "%1$s は血液不足でショック死した",
+      "death.attack.shortagedamage.player": "%1$s は %2$s に血液不足でショック死させられた",
+      "death.attack.tyuudokudamage.item": "%1$s は %2$s に %3$s を使われ薬物中毒を起こして死んだ",
+      "death.attack.tyuudokudamage.player": "%1$s は %2$s から逃げている途中に薬物中毒を起こして死んだ",
+      "death.attack.tyuudokudamage": "%1$s は薬物中毒を起こして死んだ",
+      "death.attack.sippaidamage.item": "%1$s は %2$s に %3$s を使われクラフトに失敗した...どういう状況？",
+      "death.attack.sippaidamage": "%1$s はクラフトに失敗した",
+      "death.attack.sippaidamage.player": "%1$s は %2$s から逃げている途中にクラフトに失敗した"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/mosyusi/sansyoouo/spelunkerlite/SpelunkerLiteMod.java",
+      "src/main/resources/META-INF/mods.toml",
+      "src/main/resources/pack.mcmeta"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "spelunker_lite",
+    "modName": "Spelunker lite",
+    "version": "1.0.0",
+    "description": "A simplified version of the Spelunker mod co-developed for mosyusi\u0027s Minecraft modpack.",
+    "author": "mosyusi/sansyoouo",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "mosyusi.sansyoouo.spelunkerlite"
+  },
+  "mcreatorVersion": 202600114619
+}

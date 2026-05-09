@@ -1,0 +1,20 @@
+{
+  "death.attack.asikusiitadamage": "%1$s sprained his ankle and died",
+  "death.attack.asikusiitadamage.item": "%1$s died from a sprained ankle caused by an attack using %3$s by %2$s",
+  "death.attack.asikusiitadamage.player": "%1$s sprained his ankle and died while running away from %2$s",
+  "death.attack.hossadamage.player": "%1$s died from some kind of seizure while trying to escape from %2$s",
+  "death.attack.hossadamage.item": "%1$s died from an attack by %2$s\u0027s %3$s",
+  "death.attack.hossadamage": "%1$s died from a seizure for some reason",
+  "death.attack.obobobodamage.item": "%1$s was drowned by %2$s\u0027s %3$s",
+  "death.attack.obobobodamage.player": "%1$s drowned while trying to escape from %2$s",
+  "death.attack.obobobodamage": "%1$s drowned",
+  "death.attack.shortagedamage.item": "%1$s died of shock due to blood depletion caused by an attack using %2$s\u0027s %3$s",
+  "death.attack.shortagedamage": "%1$s died from shock due to lack of blood",
+  "death.attack.shortagedamage.player": "%1$s was killed by %2$s by shock due to lack of blood",
+  "death.attack.tyuudokudamage.item": "%1$s died from drug overdose caused by %2$s\u0027s %3$s",
+  "death.attack.tyuudokudamage.player": "%1$s died from a drug overdose while fleeing from %2$s",
+  "death.attack.tyuudokudamage": "%1$s died from a drug overdose",
+  "death.attack.sippaidamage.item": "%1$s failed to craft due to an attack by %2$s\u0027s %3$s",
+  "death.attack.sippaidamage": "%1$s failed at crafting",
+  "death.attack.sippaidamage.player": "%1$s failed at crafting while escaping from %2$s"
+}
